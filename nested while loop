@@ -1,0 +1,12 @@
+#Using while loop to print "ANURAG" 6 times and "ROCKS" 5 times in a same line
+
+i=1
+while i<=6:
+    print ("ANURAG ",end="") #Here "end" will ask to finish the line here
+    i=i+1
+    j=1
+    while j<=5:
+        print("ROCKS ",end="")
+        j=j+1
+
+    print()  #this will print a complete block of nested while and then move on to next block
