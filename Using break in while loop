@@ -1,0 +1,12 @@
+AV = 7                                                  #available stock
+x=int(input("How many candies you want?"))
+i=1
+while i<=x:
+    if i>AV:
+        print("Out of stock")
+        break                                           #If condition doesnt satisfies it will break here itself and jump to bye
+
+    print("candies")
+    i+=1
+
+print("bye")
